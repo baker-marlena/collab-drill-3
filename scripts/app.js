@@ -12,3 +12,11 @@ const arrayOfObjects = [
         age: 12
     }
 ]
+
+const numArray = [44, 5, 78, 21, 9, 88]
+
+function multiplyArray (array) {
+  return array.reduce((acc, el) => {
+    return acc * el
+  }, 1)
+}
